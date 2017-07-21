@@ -1,0 +1,99 @@
+<?php
+
+#Global
+
+$s_plugin_OnCallAlerts_monday = 'Lundi';
+$s_plugin_OnCallAlerts_tuesday = 'Mardi';
+$s_plugin_OnCallAlerts_wednesday = 'Mercredi';
+$s_plugin_OnCallAlerts_thursday = 'Jeudi';
+$s_plugin_OnCallAlerts_friday = 'Vendredi';
+$s_plugin_OnCallAlerts_saturday = 'Samedi';
+$s_plugin_OnCallAlerts_sunday = 'Dimanche';
+
+$s_plugin_OnCallAlerts_name = 'Nom';
+$s_plugin_OnCallAlerts_technician = 'Technicien';
+$s_plugin_OnCallAlerts_phone = 'Tél.';
+$s_plugin_OnCallAlerts_longPhone = 'Numero de téléphone';
+$s_plugin_OnCallAlerts_startDate = 'Date début';
+$s_plugin_OnCallAlerts_endDate = 'Date fin';
+$s_plugin_OnCallAlerts_startTime = 'Heure début';
+$s_plugin_OnCallAlerts_endTime = 'Heure fin';
+$s_plugin_OnCallAlerts_note = 'Note';
+
+$s_plugin_OnCallAlerts_save = 'Sauvegarder';
+$s_plugin_OnCallAlerts_add = 'Ajouter';
+$s_plugin_OnCallAlerts_export = 'Exporter';
+$s_plugin_OnCallAlerts_print = 'Imprimer';
+$s_plugin_OnCallAlerts_download = 'Télécharger';
+$s_plugin_OnCallAlerts_action = 'Action(s)';
+$s_plugin_OnCallAlerts_from = 'Du';
+$s_plugin_OnCallAlerts_to = 'au';
+$s_plugin_OnCallAlerts_fromH = 'De';
+$s_plugin_OnCallAlerts_toH = 'à';
+$s_plugin_OnCallAlerts_for = 'Pour';
+$s_plugin_OnCallAlerts_note_colon = 'Note :';
+
+#configuration général
+
+$s_plugin_OnCallAlerts_description = 'Gestion d\'astreinte et d\'envoi de SMS pour les rapports de bogues.';
+
+$s_plugin_OnCallAlerts_default_text = '#CATEGORY : Alerte pour bogue : #IDBUG (projet #PROJECTNAME) pour le client #RAPPORTEUR, soumis le #DATE';
+$s_plugin_OnCallAlerts_default_text_rappel = 'Rappel astreinte du #STARTDATE au #ENDATE';
+$s_plugin_OnCallAlerts_default_text_test = 'Bonjour #TECHNICIAN, ce message est un test effectué sur Mantis via le plugin On Call Alerts.';
+
+$s_plugin_OnCallAlerts_management_link = 'Configuration On Call Alerts';
+$s_plugin_OnCallAlerts_management_title = 'Configuration On Call Alerts';
+
+#Config Page 
+
+$s_plugin_OnCallAlerts_config_global_title = 'Configuration globale';
+$s_plugin_OnCallAlerts_config_textServer_title = 'Configuration du serveur SMS';
+$s_plugin_OnCallAlerts_config_global_nbrLog = 'Nombre de logs maximum affichés dans le journal';
+$s_plugin_OnCallAlerts_config_global_url = 'Url Mantis pour le SMS';
+$s_plugin_OnCallAlerts_config_global_textAlert = 'Texte du SMS d\'alerte';
+$s_plugin_OnCallAlerts_config_global_textRecall = 'Texte du SMS de rappel';
+$s_plugin_OnCallAlerts_config_global_textTest = 'Texte du SMS de test';
+$s_plugin_OnCallAlerts_config_textServer_url= 'Url serveur';
+$s_plugin_OnCallAlerts_config_textServer_key = 'Clé publique';
+$s_plugin_OnCallAlerts_config_textServer_data = 'Phrase secrète';
+$s_plugin_OnCallAlerts_config_textServer_login = 'Login';
+$s_plugin_OnCallAlerts_config_textServer_pwd = 'Mot de passe';
+
+
+#Export
+
+$s_plugin_OnCallAlerts_export_title = 'Export des astreintes';
+$s_plugin_OnCallAlerts_export_h1 = 'Le %s';
+$s_plugin_OnCallAlerts_export_h2 = 'pour la période du %s au %s';
+
+#Management Page
+ 
+$s_plugin_OnCallAlerts_management_tabsConfiguration_title = 'Configuration';
+$s_plugin_OnCallAlerts_management_tabsOnCall_title = 'Astreintes';
+$s_plugin_OnCallAlerts_management_tabsLogs_title = 'Journal';
+$s_plugin_OnCallAlerts_management_tabsTechnician_title = 'Techniciens';
+$s_plugin_OnCallAlerts_management_tabsPlaning_title = 'Planning';
+
+$s_plugin_OnCallAlerts_management_config_project_title = 'Choisir projet(s)';
+$s_plugin_OnCallAlerts_management_config_send_title = 'Critères d\'envoi des SMS';
+$s_plugin_OnCallAlerts_management_config_projectMonitoring = 'Projet(s) surveillé(s)';
+$s_plugin_OnCallAlerts_management_config_impact = 'avec un impact';
+$s_plugin_OnCallAlerts_management_config_newBug = 'Nouveau bogue';
+$s_plugin_OnCallAlerts_management_config_updateBug = 'Modification de bogue';
+$s_plugin_OnCallAlerts_management_config_addNote = 'Ajout de note';
+
+$s_plugin_OnCallAlerts_management_textsend = 'Envoyer un SMS de test';
+$s_plugin_OnCallAlerts_management_textsendRecall = 'Envoyer un SMS de rappel';
+$s_plugin_OnCallAlerts_management_errorForm = 'Erreur dans le formulaire';
+$s_plugin_OnCallAlerts_management_errorSendText = 'Erreur lors de l\'envoi du SMS';
+
+$s_plugin_OnCallAlerts_management_oncall_title = 'Journée(s) d\'astreinte(s) :';
+$s_plugin_OnCallAlerts_management_oncall_exportCsv = 'Export CSV';
+
+$s_plugin_OnCallAlerts_management_planning_title = 'Planning :';
+$s_plugin_OnCallAlerts_management_planning_dayList = 'Jours de la semaine :';
+
+$s_plugin_OnCallAlerts_management_instructionLog = 'Cliquez sur le nom du fichier pour en afficher le contenu.';
+
+
+

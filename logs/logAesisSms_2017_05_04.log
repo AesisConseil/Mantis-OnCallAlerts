@@ -1,0 +1,6 @@
+{"level":10,"time":"2017-05-04T15:53:51+02:00","msg":"new bug","name":"log","hostname":"srv-aesis-d2","pid":23220,"v":0}
+{"level":10,"time":"2017-05-04T15:55:35+02:00","msg":"new bug","name":"log","hostname":"srv-aesis-d2","pid":22086,"v":0}
+{"level":10,"time":"2017-05-04T16:03:03+02:00","msg":"new bug","name":"log","hostname":"srv-aesis-d2","pid":22086,"v":0}
+{"level":10,"time":"2017-05-04T16:06:50+02:00","msg":"update bug","name":"log","hostname":"srv-aesis-d2","pid":23215,"v":0}
+{"level":10,"time":"2017-05-04T16:07:01+02:00","msg":"update bug","name":"log","hostname":"srv-aesis-d2","pid":23218,"v":0}
+{"level":10,"time":"2017-05-04T16:17:26+02:00","msg":"add note","name":"log","hostname":"srv-aesis-d2","pid":23220,"v":0}
