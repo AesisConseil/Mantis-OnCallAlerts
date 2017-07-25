@@ -1,100 +1,98 @@
 <?php
-#TODO TRADUCTION : WORK IN PROGRESS
-
 
 #Global
 
-$s_plugin_OnCallAlerts_monday = 'Lundi';
-$s_plugin_OnCallAlerts_tuesday = 'Mardi';
-$s_plugin_OnCallAlerts_wednesday = 'Mercredi';
-$s_plugin_OnCallAlerts_thursday = 'Jeudi';
-$s_plugin_OnCallAlerts_friday = 'Vendredi';
-$s_plugin_OnCallAlerts_saturday = 'Samedi';
-$s_plugin_OnCallAlerts_sunday = 'Dimanche';
+$s_plugin_OnCallAlerts_monday = 'Monday';
+$s_plugin_OnCallAlerts_tuesday = 'Tuesday';
+$s_plugin_OnCallAlerts_wednesday = 'Wednesday';
+$s_plugin_OnCallAlerts_thursday = 'Thursday';
+$s_plugin_OnCallAlerts_friday = 'Friday';
+$s_plugin_OnCallAlerts_saturday = 'Saturday';
+$s_plugin_OnCallAlerts_sunday = 'Sunday';
 
-$s_plugin_OnCallAlerts_name = 'Nom';
-$s_plugin_OnCallAlerts_technician = 'Technicien';
-$s_plugin_OnCallAlerts_phone = 'Tel';
-$s_plugin_OnCallAlerts_longPhone = 'Numero de Téléphone';
-$s_plugin_OnCallAlerts_startDate = 'Date de début';
-$s_plugin_OnCallAlerts_endDate = 'Date de fin';
-$s_plugin_OnCallAlerts_startTime = 'Heure de début';
-$s_plugin_OnCallAlerts_endTime = 'Heure de fin';
+$s_plugin_OnCallAlerts_name = 'Name';
+$s_plugin_OnCallAlerts_technician = 'Technician';
+$s_plugin_OnCallAlerts_phone = 'Phone';
+$s_plugin_OnCallAlerts_longPhone = 'Phone number';
+$s_plugin_OnCallAlerts_startDate = 'Start date';
+$s_plugin_OnCallAlerts_endDate = 'End date';
+$s_plugin_OnCallAlerts_startTime = 'Start hour';
+$s_plugin_OnCallAlerts_endTime = 'End hour';
 $s_plugin_OnCallAlerts_note = 'Note';
 
-$s_plugin_OnCallAlerts_save = 'Sauvegarder';
-$s_plugin_OnCallAlerts_add = 'Ajouter';
-$s_plugin_OnCallAlerts_export = 'Exporter';
-$s_plugin_OnCallAlerts_print = 'Imprimer';
-$s_plugin_OnCallAlerts_download = 'Télécharger';
+$s_plugin_OnCallAlerts_save = 'Save';
+$s_plugin_OnCallAlerts_add = 'Add';
+$s_plugin_OnCallAlerts_export = 'Export';
+$s_plugin_OnCallAlerts_print = 'Print';
+$s_plugin_OnCallAlerts_download = 'Download';
 $s_plugin_OnCallAlerts_action = 'Action(s)';
-$s_plugin_OnCallAlerts_from = 'Du';
-$s_plugin_OnCallAlerts_to = 'aux';
-$s_plugin_OnCallAlerts_fromH = 'De';
-$s_plugin_OnCallAlerts_toH = 'à';
-$s_plugin_OnCallAlerts_for = 'Pour';
+$s_plugin_OnCallAlerts_from = 'From';
+$s_plugin_OnCallAlerts_to = 'to';
+$s_plugin_OnCallAlerts_fromH = 'From';
+$s_plugin_OnCallAlerts_toH = 'to';
+$s_plugin_OnCallAlerts_for = 'For';
+$s_plugin_OnCallAlerts_note_colon = 'Note:';
 
 #configuration général
 
-$s_plugin_OnCallAlerts_description = 'Gestion d\'astreinte et envoie de SMS sur modification ou ajout de ticket(s)';
+$s_plugin_OnCallAlerts_description = 'On call management and SMS sending for issues.';
 
-$s_plugin_OnCallAlerts_default_text = '#CATEGORY : Alerte pour ticket: #IDBUG (projet #PROJECTNAME ) pour le client #RAPPORTEUR, soumis le #DATE';
-$s_plugin_OnCallAlerts_default_text_rappel = 'Rappel Astreinte du #STARTDATE aux #ENDATE.';
-$s_plugin_OnCallAlerts_default_text_test = 'Bonjour #TECHNICIAN, ce message est un test effectuée sur mantis via le plugin On Call Alerts.';
+$s_plugin_OnCallAlerts_default_text = '#CATEGORY: Issue #IDBUG (#PROJECTNAME) for #RAPPORTEUR, on #DATE';
+$s_plugin_OnCallAlerts_default_text_rappel = 'Hi #TECHNICIAN, on call reminder from #STARTDATE to #ENDATE';
+$s_plugin_OnCallAlerts_default_text_test = 'Hi #TECHNICIAN, this message is a test from Mantis via On Call Alerts plugin.';
 
-$s_plugin_OnCallAlerts_management_link = 'Configuration On Call Alerts';
-$s_plugin_OnCallAlerts_management_title = 'Configuration On Call Alerts';
+$s_plugin_OnCallAlerts_management_link = 'On Call Alerts Configuration';
+$s_plugin_OnCallAlerts_management_title = 'On Call Alerts Configuration';
 
 #Config Page 
 
-$s_plugin_OnCallAlerts_config_global_title = 'Configuration global';
-$s_plugin_OnCallAlerts_config_textServer_title = 'Configuration du serveur SMS';
-$s_plugin_OnCallAlerts_config_global_nbrLog = 'Nombre de log maximum affiché dans le journal';
-$s_plugin_OnCallAlerts_config_global_url = 'Url Mantis pour le sms';
-$s_plugin_OnCallAlerts_config_global_textAlert = 'Texte du sms alert';
-$s_plugin_OnCallAlerts_config_global_textRecall = 'Texte du sms rappel';
-$s_plugin_OnCallAlerts_config_global_textTest = 'Texte du sms de test';
-$s_plugin_OnCallAlerts_config_textServer_url= 'Url Serveur';
-$s_plugin_OnCallAlerts_config_textServer_key = 'Clé public';
-$s_plugin_OnCallAlerts_config_textServer_data = 'Donnée de cryptage';
+$s_plugin_OnCallAlerts_config_global_title = 'Global configuration';
+$s_plugin_OnCallAlerts_config_textServer_title = 'SMS server configuration';
+$s_plugin_OnCallAlerts_config_global_nbrLog = 'Maximum number of logs displayed';
+$s_plugin_OnCallAlerts_config_global_url = 'Mantis URL for SMS';
+$s_plugin_OnCallAlerts_config_global_textAlert = 'Text of alert SMS';
+$s_plugin_OnCallAlerts_config_global_textRecall = 'Text of reminder SMS';
+$s_plugin_OnCallAlerts_config_global_textTest = 'Text of test SMS';
+$s_plugin_OnCallAlerts_config_textServer_url= 'Server URL';
+$s_plugin_OnCallAlerts_config_textServer_key = 'Public key';
+$s_plugin_OnCallAlerts_config_textServer_data = 'Secret key';
 $s_plugin_OnCallAlerts_config_textServer_login = 'Login';
-$s_plugin_OnCallAlerts_config_textServer_pwd = 'Mot de passe';
+$s_plugin_OnCallAlerts_config_textServer_pwd = 'Password';
 
 
 #Export
 
-$s_plugin_OnCallAlerts_export_title = 'Export Astreinte';
-$s_plugin_OnCallAlerts_export_h1 = 'Le %s';
-$s_plugin_OnCallAlerts_export_h2 = 'pour la période du %s aux %s';
+$s_plugin_OnCallAlerts_export_title = 'On calls export';
+$s_plugin_OnCallAlerts_export_h1 = 'On %s';
+$s_plugin_OnCallAlerts_export_h2 = 'from %s to %s';
 
 #Management Page
  
 $s_plugin_OnCallAlerts_management_tabsConfiguration_title = 'Configuration';
-$s_plugin_OnCallAlerts_management_tabsOnCall_title = 'Astreinte';
-$s_plugin_OnCallAlerts_management_tabsLogs_title = 'Journal';
-$s_plugin_OnCallAlerts_management_tabsTechnician_title = 'Techniciens';
+$s_plugin_OnCallAlerts_management_tabsOnCall_title = 'On calls';
+$s_plugin_OnCallAlerts_management_tabsLogs_title = 'Log';
+$s_plugin_OnCallAlerts_management_tabsTechnician_title = 'Technicians';
 $s_plugin_OnCallAlerts_management_tabsPlaning_title = 'Planning';
 
-$s_plugin_OnCallAlerts_management_config_project_title = 'Projet affecté :';
-$s_plugin_OnCallAlerts_management_config_send_title = 'Envoie de SMS en cas de :';
-$s_plugin_OnCallAlerts_management_config_projectMonitoring = 'Projets surveillés :';
-$s_plugin_OnCallAlerts_management_config_impact = 'avec un impact de';
-$s_plugin_OnCallAlerts_management_config_newBug = 'Nouveau Bogue';
-$s_plugin_OnCallAlerts_management_config_updateBug = 'Modification de Bogue';
-$s_plugin_OnCallAlerts_management_config_addNote = 'Ajout de note';
+$s_plugin_OnCallAlerts_management_config_project_title = 'Choose project(s)';
+$s_plugin_OnCallAlerts_management_config_send_title = 'Sending SMS criteria';
+$s_plugin_OnCallAlerts_management_config_projectMonitoring = 'Watched project(s)';
+$s_plugin_OnCallAlerts_management_config_impact = 'With Minimum Severity of';
+$s_plugin_OnCallAlerts_management_config_newBug = 'New issue';
+$s_plugin_OnCallAlerts_management_config_updateBug = 'Edit issue';
+$s_plugin_OnCallAlerts_management_config_addNote = 'Add note';
 
-$s_plugin_OnCallAlerts_management_textsend = 'Envoyer un sms de test';
-$s_plugin_OnCallAlerts_management_textsendRecall = 'Envoyer un sms de rappel pour l\'astreinte';
-$s_plugin_OnCallAlerts_management_errorForm = 'Erreur dans le formulaire';
-$s_plugin_OnCallAlerts_management_errorSendText = 'Erreur lors de l\'envoie du sms';
+$s_plugin_OnCallAlerts_management_textsend = 'Send a test SMS';
+$s_plugin_OnCallAlerts_management_textsendRecall = 'Send a reminder SMS';
+$s_plugin_OnCallAlerts_management_errorForm = 'Error in the form';
+$s_plugin_OnCallAlerts_management_errorSendText = 'Error while sending SMS';
 
-$s_plugin_OnCallAlerts_management_oncall_title = 'Journée(s) D\'astreinte(s) :';
-$s_plugin_OnCallAlerts_management_oncall_exportCsv = 'Export CSV :';
+$s_plugin_OnCallAlerts_management_oncall_title = 'On call days:';
+$s_plugin_OnCallAlerts_management_oncall_exportCsv = 'CSV export';
 
-$s_plugin_OnCallAlerts_management_planning_title = 'Planning :';
-$s_plugin_OnCallAlerts_management_planning_dayList = 'Jours de la semaine : ';
+$s_plugin_OnCallAlerts_management_planning_title = 'Planning:';
+$s_plugin_OnCallAlerts_management_planning_dayList = 'Days of the week:';
 
-$s_plugin_OnCallAlerts_management_instructionLog = 'Cliquez sur le nom du fichier pour en afficher le contenu.';
-
+$s_plugin_OnCallAlerts_management_instructionLog = 'Click on the file name to display its content.';
 
 
