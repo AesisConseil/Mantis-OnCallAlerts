@@ -113,7 +113,7 @@ print_manage_menu();
         </tr>
         <tr>
             <td class="center" colspan="3">
-                <input type="submit" class="button" value="enregistrer" />
+                <input type="submit" class="button" value="<?php echo plugin_lang_get('save'); ?>" />
             </td>
         </tr>
 
