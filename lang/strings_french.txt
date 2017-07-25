@@ -13,7 +13,7 @@ $s_plugin_OnCallAlerts_sunday = 'Dimanche';
 $s_plugin_OnCallAlerts_name = 'Nom';
 $s_plugin_OnCallAlerts_technician = 'Technicien';
 $s_plugin_OnCallAlerts_phone = 'Tél.';
-$s_plugin_OnCallAlerts_longPhone = 'Numero de téléphone';
+$s_plugin_OnCallAlerts_longPhone = 'Numéro de téléphone';
 $s_plugin_OnCallAlerts_startDate = 'Date début';
 $s_plugin_OnCallAlerts_endDate = 'Date fin';
 $s_plugin_OnCallAlerts_startTime = 'Heure début';
@@ -37,8 +37,8 @@ $s_plugin_OnCallAlerts_note_colon = 'Note :';
 
 $s_plugin_OnCallAlerts_description = 'Gestion d\'astreinte et d\'envoi de SMS pour les rapports de bogues.';
 
-$s_plugin_OnCallAlerts_default_text = '#CATEGORY : Alerte pour bogue : #IDBUG (projet #PROJECTNAME) pour le client #RAPPORTEUR, soumis le #DATE';
-$s_plugin_OnCallAlerts_default_text_rappel = 'Rappel astreinte du #STARTDATE au #ENDATE';
+$s_plugin_OnCallAlerts_default_text = '#CATEGORY : Bogue #IDBUG (#PROJECTNAME) pour #RAPPORTEUR, soumis le #DATE';
+$s_plugin_OnCallAlerts_default_text_rappel = 'Bonjour #TECHNICIAN, rappel astreinte du #STARTDATE au #ENDATE';
 $s_plugin_OnCallAlerts_default_text_test = 'Bonjour #TECHNICIAN, ce message est un test effectué sur Mantis via le plugin On Call Alerts.';
 
 $s_plugin_OnCallAlerts_management_link = 'Configuration On Call Alerts';
@@ -94,6 +94,5 @@ $s_plugin_OnCallAlerts_management_planning_title = 'Planning :';
 $s_plugin_OnCallAlerts_management_planning_dayList = 'Jours de la semaine :';
 
 $s_plugin_OnCallAlerts_management_instructionLog = 'Cliquez sur le nom du fichier pour en afficher le contenu.';
-
 
 
