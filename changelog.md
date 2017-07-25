@@ -1,5 +1,10 @@
 **ChangeLog**
 
+** Vers 1.2 **
+
+* MAj des fichier de langues et corrections. 
+
+
 ** Vers 1.1 **
 
 * Correction d'un bug sur le tri des dates. Celui-ci devrait maintenant être correct.

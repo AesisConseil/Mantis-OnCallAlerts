@@ -10,7 +10,7 @@ class OnCallAlertsPlugin extends MantisPlugin {
     function register() {
         $this->name         = 'On Call Alerts';
         $this->description  = lang_get('plugin_OnCallAlerts_description');
-        $this->version      = "1.1";
+        $this->version      = "1.2";
         $this->requires     = array(
             "MantisCore" => "1.2.0",
             "jQuery"     => "1.6",
